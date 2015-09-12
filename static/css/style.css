@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+
+*{font-family:Montserrat;font-size: 14pt;}
+
+body{
+	
+}
+
+.left{float: left;}
+
+.left-section{
+	height: 110%;
+	min-height: 200px;
+	width: 40%;
+	float: left;
+}
+
+.right-section{
+	background: #00a7e2;
+	height: 720px;
+	min-height: 300px;
+	width: 70%;
+	float: left;
+}
+
+.logo{
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.description{
+	margin: auto;
+	margin-top: 22%;
+	color: black;
+}
+
+.coming-soon{
+	margin: auto;
+	margin-top: 2%;
+	color: black;
+	font-size: 60pt;
+	text-align: right;
+	letter-spacing: -3px;
+}
+
+.info{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.contacts{
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	margin-right: 20%;
+}
+
+.icon{
+	height: 35px;
+	float: right;
+	margin: 5px 0px 0px 10px;
+}
+
+.icon:hover{background: white;border-radius: 10px;}
+
+input{
+	//margin-left:20px;
+	margin-top: 5px;
+	line-height: 40px;
+	font-size: 12pt;
+	border-radius: 5px;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+input:focus{
+	border: 1px solid black;
+	color: black;
+}
